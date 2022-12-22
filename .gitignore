@@ -13,9 +13,12 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+<<<<<<< HEAD
 # Mono auto generated files
 mono_crash.*
 
+=======
+>>>>>>> 60aa6080659edd7f4562fec308ff396771794ea2
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -23,14 +26,20 @@ mono_crash.*
 [Rr]eleases/
 x64/
 x86/
+<<<<<<< HEAD
 [Ww][Ii][Nn]32/
+=======
+>>>>>>> 60aa6080659edd7f4562fec308ff396771794ea2
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
 bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+<<<<<<< HEAD
 [Ll]ogs/
+=======
+>>>>>>> 60aa6080659edd7f4562fec308ff396771794ea2
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -44,10 +53,16 @@ Generated\ Files/
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
+<<<<<<< HEAD
 # NUnit
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+=======
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+>>>>>>> 60aa6080659edd7f4562fec308ff396771794ea2
 
 # Build Results of an ATL Project
 [Dd]ebugPS/
@@ -57,17 +72,24 @@ dlldata.c
 # Benchmark Results
 BenchmarkDotNet.Artifacts/
 
+<<<<<<< HEAD
 # .NET
+=======
+# .NET Core
+>>>>>>> 60aa6080659edd7f4562fec308ff396771794ea2
 project.lock.json
 project.fragment.lock.json
 artifacts/
 
+<<<<<<< HEAD
 # Tye
 .tye/
 
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt
 
+=======
+>>>>>>> 60aa6080659edd7f4562fec308ff396771794ea2
 # StyleCop
 StyleCopReport.xml
 
@@ -134,6 +156,12 @@ _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
 
+<<<<<<< HEAD
+=======
+# JustCode is a .NET coding add-in
+.JustCode
+
+>>>>>>> 60aa6080659edd7f4562fec308ff396771794ea2
 # TeamCity is a build add-in
 _TeamCity*
 
@@ -144,11 +172,14 @@ _TeamCity*
 .axoCover/*
 !.axoCover/settings.json
 
+<<<<<<< HEAD
 # Coverlet is a free, cross platform Code Coverage Tool
 coverage*.json
 coverage*.xml
 coverage*.info
 
+=======
+>>>>>>> 60aa6080659edd7f4562fec308ff396771794ea2
 # Visual Studio code coverage results
 *.coverage
 *.coveragexml
@@ -196,8 +227,11 @@ PublishScripts/
 
 # NuGet Packages
 *.nupkg
+<<<<<<< HEAD
 # NuGet Symbol Packages
 *.snupkg
+=======
+>>>>>>> 60aa6080659edd7f4562fec308ff396771794ea2
 # The packages folder can be ignored because of Package Restore
 **/[Pp]ackages/*
 # except build/, which is used as an MSBuild target.
@@ -222,8 +256,11 @@ BundleArtifacts/
 Package.StoreAssociation.xml
 _pkginfo.txt
 *.appx
+<<<<<<< HEAD
 *.appxbundle
 *.appxupload
+=======
+>>>>>>> 60aa6080659edd7f4562fec308ff396771794ea2
 
 # Visual Studio cache files
 # files ending in .cache can be ignored
@@ -273,9 +310,13 @@ ServiceFabricBackup/
 *.bim.layout
 *.bim_*.settings
 *.rptproj.rsuser
+<<<<<<< HEAD
 *- [Bb]ackup.rdl
 *- [Bb]ackup ([0-9]).rdl
 *- [Bb]ackup ([0-9][0-9]).rdl
+=======
+*- Backup*.rdl
+>>>>>>> 60aa6080659edd7f4562fec308ff396771794ea2
 
 # Microsoft Fakes
 FakesAssemblies/
@@ -311,6 +352,13 @@ paket-files/
 # FAKE - F# Make
 .fake/
 
+<<<<<<< HEAD
+=======
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+>>>>>>> 60aa6080659edd7f4562fec308ff396771794ea2
 # CodeRush personal settings
 .cr/personal
 
@@ -353,6 +401,7 @@ ASALocalRun/
 .localhistory/
 
 # BeatPulse healthcheck temp database
+<<<<<<< HEAD
 healthchecksdb
 
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
@@ -452,3 +501,6 @@ $RECYCLE.BIN/
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+=======
+healthchecksdb
+>>>>>>> 60aa6080659edd7f4562fec308ff396771794ea2
