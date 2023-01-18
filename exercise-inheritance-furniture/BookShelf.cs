@@ -18,7 +18,7 @@ namespace exercise_inheritance_furniture
         {
             //code to accept height,width ,color,price and qty using base
             base.Accept();
-            Console.WriteLine("give the value for height :");
+            Console.WriteLine("give the value for NoOfShelves :");
             NoOfShelves = Convert.ToInt32(Console.ReadLine());
         }
         //override the Display method to include the display of NoOfShelves property also
@@ -26,7 +26,7 @@ namespace exercise_inheritance_furniture
         {
             //code to display height width ,price,qty and color using base
             base.Display();
-            Console.WriteLine($"The value for No of Legs given is {NoOfShelves}");
+            Console.WriteLine($"The value for No of NoOfShelves given is {NoOfShelves}");
         }
 
     }
