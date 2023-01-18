@@ -13,7 +13,7 @@ namespace commander
             p = new Program();
         }
 
-        [Test]       
+        [Test]
         public void TestTotalStockValueSuccess()
         {
             Furniture[] f = new Furniture[2];
@@ -28,7 +28,7 @@ namespace commander
             //f[0] = new BookShelf() { Color = "", Height = 0, NoOfShelves = 0, Width = 0, Price = 100, Qty = 2 };
             //f[1] = new BookShelf() { Color = "", Height = 0, NoOfShelves = 0, Width = 0, Price = 100, Qty = 2 };
             Assert.That(() => p.TotalStockValue(f), Throws.InstanceOf<NullReferenceException>());
-            
+
         }
     }
 }
