@@ -69,7 +69,7 @@ namespace exercise_inheritance_furniture
         public int ShowStockDetails(Furniture[] items)
         {
             //call display method from all object to display the stock
-            for (int i = 1; i < items.Length; i++)
+            for (int i = 0; i < items.Length; i++)
             {
                 Console.WriteLine("Furniture " + (i + 1) + " Details:");
                 items[i].Display();

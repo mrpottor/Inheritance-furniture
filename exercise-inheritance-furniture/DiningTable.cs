@@ -17,7 +17,7 @@ namespace exercise_inheritance_furniture
         {
             
             base.Accept();
-            Console.WriteLine("give the value for height :");
+            Console.WriteLine("give the value for No of legs :");
             NoOfLegs = Convert.ToInt32(Console.ReadLine());
         }
         //override the Display method to include the display of NoOfLegs property also
