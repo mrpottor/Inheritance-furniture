@@ -16,7 +16,7 @@ namespace exercise_inheritance_furniture
             //call ShowStockDetails(<furniture array>);
             program.ShowStockDetails(furnitures);
             // call TotalStockValue(<furniture array>) and display output 
-            program.TotalStockValue(furnitures);
+            Console.WeiteLine(program.TotalStockValue(furnitures));
 
         }
         public int AddToStock(Furniture[] items)
